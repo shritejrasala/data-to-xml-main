@@ -117,7 +117,7 @@
                     "type": "ResponsiveTable"
                   },
                   "actions": {
-                    "xml": {
+                    "exportEmployeesAsXML": {
                       "press": "employee.ext.xml.xml.xml",
                       "visible": true,
                       "enabled": true,

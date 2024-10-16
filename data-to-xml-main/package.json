@@ -10,7 +10,8 @@
     "@sap/cds-dk": "^8.3.0",
     "axios": "^1.7.7",
     "express": "^4",
-    "fast-xml-parser": "^4.5.0"
+    "fast-xml-parser": "^4.5.0",
+    "xmlbuilder2": "^3.1.1"
   },
   "devDependencies": {
     "@cap-js/cds-types": "^0.6",

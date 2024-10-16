@@ -1,10 +1,11 @@
 using my.company as my from '../db/schema';
 
 service empsrv {
-  entity Employees as projection on my.Employee;
+  entity Employees as projection on my.Employee actions{
   
  
-  action exportEmployeesAsXML() returns Binary;
+  action exportEmployeesAsXML() returns String;
+  }
 }
 annotate empsrv.Employees with @odata.draft.enabled;
 annotate empsrv.Employees with @(
